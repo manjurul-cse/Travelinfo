@@ -1,0 +1,52 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+
+q:before,q:after {
+	content:'';
+}
+
+.tabsContent {
+width: 600px;
+	overflow: hidden;
+}
+.tab {
+	padding: 16px;
+	display: none;
+        width:400px;
+}
+
+
+.tab ul {
+
+	list-style: disc;
+}
+
+.tab strong {
+	font-weight: bold;
+}
+.tab pre {
+	font-size: 11px;
+	margin-top: 20px;
+	width: 668px;
+	overflow: auto;
+	clear: both;
+}
